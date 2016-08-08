@@ -1,16 +1,3 @@
----
-title: "Overlap in Serials Databases"
-author: "Dan Murphy"
-date: "August 7, 2016"
-output: html_document
----
-
-```{r global_options, include=FALSE}
-knitr::opts_chunk$set(warning=FALSE, message=FALSE, eval=FALSE)
-```
-
-
-
 ## Overview
 
 Serials databases purchased by academic libraries often overlap meaning access to a particular journal can be paid for several times.  When evaluating database purchases or renewals, this overlap makes it difficult to see a database's actual value in the library's collection.  Using the script below, a library can identify which journals in each package are provided elsewhere in their other subscriptions.  Additionally, the script compares coverage dates in other packages to confirm the journals exact coverage is reproduced elsewhere.  The script produces a report showing the percentage overlap of all databases along with individual reports for each database showing the journals contained therein and where other coverage exists.  
